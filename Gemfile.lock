@@ -1,0 +1,27 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    addressable (2.5.0)
+      public_suffix (~> 2.0, >= 2.0.2)
+    archive-zip (0.9.0)
+      io-like (~> 0.3.0)
+    epub-parser (0.3.1)
+      addressable (>= 2.3.5)
+      archive-zip
+      nokogiri (~> 1.6)
+      rchardet (>= 1.6.1)
+    io-like (0.3.0)
+    mini_portile2 (2.1.0)
+    nokogiri (1.7.0.1)
+      mini_portile2 (~> 2.1.0)
+    public_suffix (2.0.5)
+    rchardet (1.6.1)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  epub-parser
+
+BUNDLED WITH
+   1.13.2
